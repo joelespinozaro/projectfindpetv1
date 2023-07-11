@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Find Pet</string>
+    <string name="login">Login</string>
+    <string name="name">Nombre:</string>
+    <string name="password">Contraseña:</string>
+    <string name="send">Enviar</string>
+    <string name="email">Email:</string>
+    <string name="create_account">Crear Cuenta</string>
+    <string name="confirm_password">Confirmar Contraseña:</string>
+    <string name="logout">Logout</string>
+    <string name="authentication_service_alert">Servicio de Autenticación</string>
+    <string name="authentication_service_alert_desc">Error en servicio de autenticación.  Vuélvalo a intentar nuevamente, por favor.</string>
+    <string name="ok">OK</string>
+    <string name="create_error_alert">Crear cuenta de servicio</string>
+    <string name="create_error_alert_desc">Error en el servidor. La cuenta no fue creada, inténtelo nuevamente, por favor.</string>
+    <string name="dog_name">Nombre:</string>
+    <string name="dog_breed">Raza:</string>
+    <string name="dog_gender">Género:</string>
+    <string name="upload_picture">Agregar foto</string>
+    <string name="the_place_last_seen">Último lugar donde fue visto:</string>
+    <string name="choose_a_date">Seleccione fecha</string>
+    <string name="location_permissions_alert">Permisos de localización</string>
+    <string name="location_permissions_alert_desc">Los permisos de ubicación son necesarios para acceder a las funciones de mapa de la aplicación. Si no otorga los permisos, no puede establecer la ubicación perdida en el mapa.</string>
+    <string name="allow">Permitir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="select_date">Seleccionar fecha</string>
+    <string name="select_time">Seleccionar hora</string>
+    <string name="dog_age">Edad:</string>
+    <string name="missing_data_alert">Campos inválidos</string>
+    <string name="missing_data_alert_desc">Asegúrese de ingresar el nombre de la mascota, la fecha de pérdida y el lugar de pérdida</string>
+    <string name="report_lost_dog">Reportar mascota perdida</string>
+    <string name="home">Inicio</string>
+    <string name="login_page">Página de inicio</string>
+    <string name="lost_report_intro">Por favor, rellene el formulario para su mascota perdida. Almacenaremos los datos en la base de datos. Si alguien encuentra la mascota, le enviaremos un correo electrónico. Si los otros usuarios quieren buscar mascotas perdidas, los datos de la mascota se mostrarán a los usuarios.</string>
+    <string name="select_a_time">Seleccionar hora</string>
+    <string name="select_a_date">Seleccionar fecha</string>
+
+    <string-array name="gender_array">
+        <item>Seleccionar</item>
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+    <string-array name="animalType_array">
+        <item>Seleccionar</item>
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Ave</item>
+        <item>Otros</item>
+    </string-array>
+    <string name="i_lost_a_dog">Perdí una mascota</string>
+    <string name="i_found_a_dog">Encontré una mascota</string>
+    <string name="found_dog_intro">Por favor rellene el formulario. Compararemos la información de mascotas perdidas con los datos aquí. Si encontramos una coincidencia, le enviaremos un correo electrónico a usted y al dueño.</string>
+    <string name="lost_dogs_list_intro">A continuación se muestra una lista de las mascotas perdidas reportadas. Si encontraste a la mascota o has visto al perro, puedes dejarle un mensaje al dueño aquí.</string>
+    <string name="found_dogs_list_intro">A continuación se muestra una lista de las mascotas encontradas. Si perdió una mascota, puede consultar la lista y hacer clic en enviar mensaje para contactar a la persona.</string>
+    <string name="send_message">Enviar mensaje</string>
+    <string name="message_sent_alert">Mensaje enviado</string>
+    <string name="message_sent_alert_desc">Su mensaje ha sido enviado al dueño de la mascota.</string>
+    <string name="messages_received">Mensajes Recibidos</string>
+    <string name="lost_dogs">Mascotas perdidas</string>
+    <string name="list_of_lost_dogs">Lista de mascotas perdidas</string>
+    <string name="list_of_found_dogs">Lista de mascotas encontradas</string>
+    <string name="reply">Replicar</string>
+    <string name="messages_sent">Mensajes enviados</string>
+    <string name="enter_message_alert">Ingresar mensaje</string>
+    <string name="message_was_not_sent_alert">El mensaje no fue enviado</string>
+    <string name="message_not_sent_alert_desc">Hay un error en el envío del mensaje. Por favor, asegúrese de tener wifi. Si el error persiste, probablemente haya un error en el servidor.</string>
+    <string name="found_dogs">Mascotas encontradas</string>
+    <string name="location_in_map">Ubicación en mapa</string>
+    <string name="the_lost_location">La ubicación perdida</string>
+    <string name="no_location_available_alert">La ubicación no está habilitada</string>
+    <string name="no_location_available_alert_desc">El propietario no estableció la ubicación en el mapa. Por favor refiérase a la descripción de la ubicación.</string>
+    <string name="dog">Perro</string>
+    <string name="show_map">Mostrar mapa</string>
+    <string name="set_location">Escoger locación</string>
+    <string name="notes">Notas</string>
+    <string name="hint_for_notes">Por favor ingrese cualquier cosa que desee anotar.</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="profile">Perfil</string>
+    <string name="current_password">Contraseña actual:</string>
+    <string name="new_password">Nueva contraseña:</string>
+    <string name="change_password_title">Cambiar contraseña</string>
+    <string name="same_passwords_alert">Mismas contraseñas</string>
+    <string name="same_password_alert_desc">La contraseña actual y la nueva contraseña son las mismas. No hay necesidad de actualizar.</string>
+    <string name="password_success_alert_desc">La contraseña ha sido cambiada.</string>
+    <string name="password_incorrect_alert_desc">La contraseña actual que ingresó es incorrecta. Inténtalo de nuevo.</string>
+    <string name="password_error_alert_desc">El servidor tiene error. Por favor, inténtelo de nuevo más tarde.</string>
+    <string name="reset_password">Resetar contraseña</string>
+    <string name="password_reset_alert">Resetear contraseña</string>
+    <string name="password_reset_alert_desc">Ingrese el correo electrónico que utilizó para registrar esta aplicación. El servidor le enviará un correo electrónico con el enlace para restablecer la contraseña.</string>
+    <string name="incorrect_login_info_alert">Inicio de sesión</string>
+    <string name="incorrect_login_info_alert_desc">Las credenciales de inicio de sesión son incorrectas. El correo electrónico o la contraseña son incorrectos, o ambos.</string>
+    <string name="reset_email_sent_alert">Reiniciar contraseña</string>
+    <string name="reset_email_sent_alert_desc">Se envió el correo electrónico de restablecimiento. Por favor revise su correo electrónico.</string>
+    <string name="reset_email_error_alert_desc">O el correo electrónico que ingresó no estaba en nuestro registro o hubo un error en el servidor. Inténtalo de nuevo.</string>
+    <string name="email_invalid_desc">El correo electrónico que ingresó no era válido. Inténtalo de nuevo.</string>
+    <string name="touch_to_reply">Toca para responder</string>
+    <string name="app_introduction">Introducción a la aplicación</string>
+    <string name="app_introduction_text">La aplicación le permite al usuario reportar sus mascotas perdidas o encontradas. Los datos se guardarán en la base de datos.\n\nLos otros usuarios pueden leer los datos cuando lo deseen. Entonces, si un usuario perdió una mascota, puede leer la lista de mascotas encontradas para ver si alguien encontró su mascota. Viceversa para un usuario que encontró una mascota.\n\nLa aplicación se dedica a ayudar a los dueños de mascotas a encontrar a sus mascotas perdidas. También puede enviar un mensaje al dueño de la mascota directamente en la aplicación.</string>
+    <string name="lost_dog_report">Reportar mascota</string>
+    <string name="lost_report_success_alert_desc">El informe fue enviado al servidor con éxito. Le enviaremos un correo electronico si alguien encuentra la mascota.</string>
+    <string name="lost_report_failure_alert_desc">Hay un error en el servidor. Por favor, inténtelo de nuevo más tarde.</string>
+    <string name="invalid_date_alert_desc">Solo puede ingresar una fecha desde hace diez años hasta ahora.</string>
+    <string name="location_permissions">Permisos de ubicación</string>
+    <string name="send_message_failure_alert">El mensaje no fue enviado</string>
+    <string name="send_message_failure_alert_desc">Hay un error en el envío del mensaje. Por favor, asegúrese de tener wifi. Si el error persiste, probablemente haya un error en el servidor.</string>
+    <string name="send_message_error_alert">Enviar mensaje de error</string>
+    <string name="send_message_error_alert_desc">La aplicación no permite que los usuarios se envíen mensajes a sí mismos.</string>
+    <string name="account_registration">Registro de cuenta</string>
+    <string name="email_exists_alert_desc">El correo electrónico que ingresó ya existía en la base de datos. Inicie sesión con este correo electrónico o registre una nueva cuenta con otro correo electrónico.</string>
+    <string name="server_error_alert_desc">Hay un error en el servidor. Por favor, inténtelo de nuevo más tarde.</string>
+    <string name="pet_type">Tipo de mascota:</string>
+    <string name="dogs">Perros</string>
+    <string name="cats">Gatos</string>
+    <string name="birds">Aves</string>
+    <string name="others">Otros</string>
+    <string name="all">Todos</string>
+    <string name="edit_report">Editar reporte</string>
+    <string name="select_a_report">Seleccione un reporte</string>
+    <string name="choose_a_report">Elija un reporte</string>
+    <string name="pet_report_update">Actualización de reporte de mascota</string>
+    <string name="update_report_success_alert_desc">El informe de mascotas se actualizó con éxito.</string>
+    <string name="delete_report">ELIMINAR REPORTE</string>
+    <string name="delete_report_confirmation">Borrar confirmación de informe</string>
+    <string name="delete_report_alert_desc">¿Está seguro de que desea eliminar este informe?</string>
+    <string name="delete_report_alert">Eliminar reporte</string>
+    <string name="delete_report_success_alert_desc">El informe se eliminó con éxito.</string>
+    <string name="delete_report_failure_alert_desc">La aplicación no pudo eliminar el informe. El servidor puede estar caído. Por favor, asegúrese de que el WIFI esté encendido. Por favor, inténtelo de nuevo más tarde.</string>
+</resources>
