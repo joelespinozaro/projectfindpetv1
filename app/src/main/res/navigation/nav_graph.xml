@@ -101,7 +101,7 @@
     <fragment
         android:id="@+id/chooseLocationFragment"
         android:name="com.bitpunchlab.android.pawsgo.location.ChooseLocationFragment"
-        android:label="Choose Location"
+        android:label="Escoger Lugar"
         tools:layout="@layout/fragment_choose_location" >
         <action
             android:id="@+id/action_chooseLocationFragment_to_editReportFragment"
@@ -110,7 +110,7 @@
     <fragment
         android:id="@+id/readMessagesFragment"
         android:name="com.bitpunchlab.android.pawsgo.messages.ReadMessagesFragment"
-        android:label="Messages"
+        android:label="Mensajes"
         tools:layout="@layout/fragment_read_messages" >
         <argument
             android:name="receivedOrSent"
@@ -122,10 +122,10 @@
     <fragment
         android:id="@+id/dogFragment"
         android:name="com.bitpunchlab.android.pawsgo.dogsDisplay.DogFragment"
-        android:label="Pet"
+        android:label="Mascota"
         tools:layout="@layout/fragment_dog" >
         <argument
-            android:name="dog"
+            android:name="mascota"
             app:argType="com.bitpunchlab.android.pawsgo.modelsRoom.DogRoom" />
         <action
             android:id="@+id/sendMessageAction"

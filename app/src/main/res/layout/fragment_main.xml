@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
-                android:text="@{`Hello ` + (user.userName != null ? user.userName : ``)}"
+                android:text="@{`Hola` + (user.userName != null ? user.userName : ``)}"
                 android:textSize="@dimen/content_text_size"
                 android:textColor="@color/black"
                 android:textStyle="bold"

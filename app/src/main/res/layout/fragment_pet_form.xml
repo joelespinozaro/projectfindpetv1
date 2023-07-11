@@ -198,7 +198,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="When did it happen?"
+                android:text="¿Cuando sucedió?"
                 android:textSize="@dimen/content_text_size"
                 android:textAlignment="center"
                 android:textColor="@color/black"

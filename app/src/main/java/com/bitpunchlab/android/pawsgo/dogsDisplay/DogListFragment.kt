@@ -28,7 +28,7 @@ import com.bitpunchlab.android.pawsgo.databinding.FragmentDogListBinding
 
 class DogListFragment : Fragment() {
 
-    private var _binding : com.bitpunchlab.android.pawsgo.databinding.FragmentDogListBinding? = null
+    private var _binding : FragmentDogListBinding? = null
     private val binding get() = _binding!!
     private lateinit var firebaseClient : FirebaseClientViewModel
     private lateinit var dogsAdapter : DogsAdapter
