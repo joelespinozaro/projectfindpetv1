@@ -168,9 +168,13 @@ class MainFragment : Fragment() {
     }
   */
     private fun prepareUserDogReports() {
-        //dogsViewModel
-        dogsViewModel._dogReports.value = firebaseClient.currentUserRoomLiveData.value!!.lostDogs
-        Log.i("main fragment", "prepare dog reports, ${dogsViewModel.dogReports.value?.size}")
+    val currentUserRoomLiveData = firebaseClient.currentUserRoomLiveData.value
+        if (currentUserRoomLiveData != null) {
+            dogsViewModel._dogReports.value = firebaseClient.currentUserRoomLiveData.value!!.lostDogs
+            Log.i("main fragment", "prepare dog reports, ${dogsViewModel.dogReports.value?.size}")
+        }else {
+            dogsViewModel._dogReports.value = emptyList()
+        }
     }
 
     private fun appIntroAlert() {

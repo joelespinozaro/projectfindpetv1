@@ -780,12 +780,13 @@ class FirebaseClientViewModel(application: Application) : AndroidViewModel(appli
         return localDatabase.pawsDAO.getAllLostDogs()
     }
 
-    private fun getListOfDogsRequestImage(dogListFirestore: ArrayList<DogFirebase>, dogListLocal: ArrayList<DogRoom>)
+    private fun getListOfDogsRequestImage(dogListFirestore: ArrayList<DogFirebase>? = null, dogListLocal: ArrayList<DogRoom>? = null)
         : List<DogFirebase> {
         var dogFirebaseList = ArrayList<DogFirebase>()
         if (!dogListFirestore.isNullOrEmpty() && !dogListLocal.isNullOrEmpty()) {
             // this new list is already a copy , not references
-            dogFirebaseList = dogListFirestore.toList() as ArrayList
+            dogFirebaseList = ArrayList(dogListFirestore)
+//            dogFirebaseList = dogListFirestore.toList() as ArrayList
             dogListLocal.map { dogRoom ->
                 val dogFirebase = dogFirebaseList.find { it.dogID == dogRoom.dogID }
                 dogFirebase?.let {
